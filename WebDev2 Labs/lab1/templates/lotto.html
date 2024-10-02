@@ -1,0 +1,14 @@
+{% extends "base.html" %} 
+
+{% block main_content %}
+    <p>
+        Try these! G'luck
+    </p>
+    <table>
+    <tr>
+        {% for n in list_of_numbers %} 
+            <td>{{n}}</td>
+        {% endfor %}
+    </tr>
+    </table>
+{% endblock %}

@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+
+{% block main_content %}
+    
+    <form method="POST" action="" novalidate>
+        {{ form.hidden_tag() }}
+        {{ form.convert_from.label }}
+        {{ form.convert_from() }}
+        {{ form.to_convert() }}
+        <img src="{{ url_for('static', filename='thermometer.jpg') }}"
+            alt="An image of a thermometer" />
+        <br />
+        {{ form.convert_to.label }}
+        {{ form.convert_to() }}
+        {{ form.converted(disabled=True) }}
+        <br />
+        {{ form.submit() }}
+    </form>
+    <a href="{{ url_for('shift') }}">Go to the shift program</a>
+    
+
+{% endblock %}

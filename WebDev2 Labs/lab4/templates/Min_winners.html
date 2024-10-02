@@ -1,0 +1,37 @@
+{% extends "base.html" %}
+
+{% block main_content %}
+    <form action="" method="post" novalidate>
+        {{ form.hidden_tag() }}
+        {{ form.choice.label }}
+        {{ form.choice() }}
+        {% for error in form.choice.errors %}
+            {{ error }}
+        {% endfor %}
+        <br />
+        {{ form.points.label }}
+        {{ form.points() }}
+        {% for error in form.points.errors %}
+            {{ error }}
+        {% endfor %}
+        <br />
+        {{ form.submit() }}
+    </form>
+
+    {% if winners %}
+    <table>
+        <caption>Eurovision Winners</caption>
+        {% for winner in winners %} 
+            <tr>
+                <td>{{ winner["year"] }}</td>
+                <td>{{ winner["country"] }}</td>
+                <td>{{ winner["song"] }}</td>
+                <td>{{ winner["performer"] }}</td>
+                <td>{{ winner["points"] }}</td>
+            </tr>
+        {% endfor %} 
+    </table>
+    {% endif %}
+    <p>{{ error }}</p>
+   
+{% endblock %}
