@@ -1,0 +1,27 @@
+html {
+    font-family: "Impact";
+    float: left;
+    width: 2000px;
+    --base-color: black;
+    --base-bgcolor: rgb(73, 66, 66);
+    --main-color: rgba(67, 29, 235, 0.705);
+    --main-bgcolor: rgba(35, 12, 243, 0.562);
+    background-image: url("../images/Backgroundimg.jpg");
+}
+
+
+p {
+    color: var(--base-color);
+    width: 75%;
+}
+
+nav {
+    float: right;
+    width: 200px;
+  
+  }
+
+a {
+    color: var(--base-color);
+}
+
