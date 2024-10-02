@@ -1,0 +1,18 @@
+4 pillars
+inheritance - to design 2 or more entities that are different but share many common features (super class) (subclass)
+encapsulation - the process of hiding information within an object so that it cannot be accessed directly from outside the object (helps keep data safe and secure)
+abstraction - the process of hiding the details of an object so that it can be used without understanding how it works
+polymorphism - the ability for an object to take multiple forms. create flexible and adaptable code
+
+an object has state what the object knows and behavior what the object can do
+State: The state of an object is represented by its attributes (or properties), 
+which hold data about the object. For example, if the object represents a person, 
+the state could include attributes like name, age, and address.
+
+Behavior: The behavior of an object is defined by its methods, 
+which are functions or procedures associated with the object. 
+These methods define what the object can do and usually operate on the object's state. 
+For instance, if the object is a car, behaviors could include methods like start(), stop(), accelerate(), and brake().
+
+Final: The class cannot be inherited by other classes
+Abstract: The class cannot be used to create objects, To access an abstract class, it must be inherited from another class
