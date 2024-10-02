@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Monster Slayer</title>
+    <link rel="stylesheet" href="{{url_for('static', filename='game.css') }}">
+    <link rel="icon" type="image/x-icon" href="../static//assets/favicon.ico" />
+</head>
+
+<body onload="play()">
+    <h1>Monster Slayer</h1>
+
+    <div class="game-container">
+        <div class="transition"
+            style="background-color: black; position: absolute; display: inline-block; top: 0; bottom: 0; right: 0; left: 0; opacity: 0; pointer-events: none;">
+        </div>
+        <div class="health-bars" style="opacity: 0;">
+            <div class="enemy-health">
+                <h1>Ghost</h1>
+                <div style="position: relative;">
+                    <div style="height: 3px; background-color: lightgray; margin-top: 10px;"></div>
+                    <div style="height: 3px; background-color: green; position: absolute; top: 0; left: 0; right: 0;">
+                    </div>
+                </div>
+            </div>
+            <div class="player-health">
+                <h1>Player</h1>
+                <div style="position: relative;">
+                    <div style="height: 3px; background-color: lightgray; margin-top: 10px;"></div>
+                    <div style="height: 3px; background-color: green; position: absolute; top: 0; left: 0; right: 0;">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <canvas id="game-canvas" width="512" height="320">
+        </canvas>
+        <div class="battleAttackBar" style="opacity: 0;">
+            <div id="dialogBox" style="position: absolute; top: 0; right: 0; left:0; bottom:0; background-color: white; display: none;"></div>
+            <div class="attack" style="display: grid;
+            grid-template-columns: 1fr 1fr;">
+                <button id="Fireball">Magic Attack</button>
+                <button id="Sword">Sword Strike</button>
+            </div>
+            <div class="attack-type">
+                <h1>Attack Type</h1>
+            </div>
+        </div>
+    </div>
+
+    <script src="{{url_for('static', filename='collisions.js') }}"></script>
+    <script src="{{url_for('static', filename='game.js') }}"></script>
+
+</body>
+
+</html>

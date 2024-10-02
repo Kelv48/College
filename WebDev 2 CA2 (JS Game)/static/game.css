@@ -1,0 +1,74 @@
+ body {
+    background-color: gray;
+    overflow: hidden;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+button {
+    border: 0;
+    cursor: pointer;
+
+}
+
+button:hover {
+    background-color: lightgray;
+}
+
+.game-container {
+    transform: scale(2) translateY(50%);
+    position: relative;
+    display: inline-block;
+    border: solid black;
+}
+
+
+.game-canvas {
+    image-rendering: pixelated;
+} 
+
+.battleAttackBar {
+    text-align: left;
+    display: flex;
+    background-color: white; 
+    height: 55px;
+    position: absolute; 
+    bottom: 0; 
+    left: 0; 
+    right: 0;
+    border-top: 4px solid black;
+}
+
+.attack {
+    width: 66.66%;
+
+}
+
+.attack-type {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 33.33%;
+    border-left: 4px black solid;
+}
+
+.enemy-health {
+    background-color: white; 
+    width: 175px; 
+    position: absolute; 
+    top: 25px; 
+    left:25px; 
+    border: solid black; 
+}
+
+.player-health {
+    background-color: white; 
+    width: 175px; 
+    position: absolute; 
+    bottom: 80px; 
+    right:25px; 
+    border: solid black;
+}

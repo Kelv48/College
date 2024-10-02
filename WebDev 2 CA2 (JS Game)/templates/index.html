@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>Monster Slayer</title>
+        <link rel="stylesheet" href="{{url_for('static', filename='titleScreen.css') }}">
+        <link rel="icon" type="image/x-icon" href="../static/assets/favicon.ico" />
+        <script src="{{url_for('static', filename='audio.js') }}"></script>
+
+    </head>
+    <body onload="play()">
+      <h1>Monster Slayer</h1>
+        <p>
+          <section id="options">
+            <div class="brand">
+                <a href="{{ url_for('game') }}">PRESS START</a>
+              </div>
+              <div class="controls">
+                <a href="{{ url_for('controls' ) }}">CONTROLS</a>
+              </div>
+              <div class="credits">
+                <a href="{{ url_for('credits' ) }}">CREDITS</a>
+              </div>
+            </section>
+        </p>
+    </body>
+</html>
+
