@@ -1,0 +1,8 @@
+# a website that takes everything the websites have in common
+"""#the curly brackets are known as Jinja2 templates   
+#you can give any name you wish to the variables however your python code must reflect this.
+#this is a template"""
+
+
+
+

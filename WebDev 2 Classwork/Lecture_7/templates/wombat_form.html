@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+
+{% block main_content %}
+    
+    <form method="POST" action="" novalidate>
+        {{ form.hidden_tag() }}
+        {{ form.wombat.label }}
+        {{ form.wombat() }}
+        <br />
+        <img src="{{ url_for('static', filename='wombat.jpg') }}"
+            alt="An image of a cute wombat?" />
+        <br />
+        {{ form.submit() }}
+    </form>
+    <p>{{outcome}}</p>
+{% endblock %}
