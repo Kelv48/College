@@ -1,6 +1,3 @@
-#122318693
-#Used chatgpt and copilot
-
 from APQ import *
 class Vertex():
    def __init__(self,element: str):
