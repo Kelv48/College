@@ -1,4 +1,3 @@
-#Kelvin Osagie 122318693
 #31/01/23
 
 eircodeAreas = {'A63': 'Greystones', 'A98':'Bray', 'P17':'Kinsale', 'A86':'Dunboyne', 'W23':'Cellbridge', 
