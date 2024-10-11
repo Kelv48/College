@@ -1,5 +1,4 @@
 '''GetGradeLetter.py 
-Kelvin Osagie 122318693
 11-10-22'''
 
 '''Ask the user to input the numerical grade
