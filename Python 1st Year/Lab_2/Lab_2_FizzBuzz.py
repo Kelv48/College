@@ -1,5 +1,4 @@
 '''FizzBuzz.py 
-Kelvin Osagie 122318693
 11-10-22'''
 
 '''If num int divided by 3 = 0 num is a multiple of 3
