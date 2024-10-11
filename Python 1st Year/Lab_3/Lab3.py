@@ -1,5 +1,4 @@
 '''MetEireann.py
-Kelvin Osagie 122318693
 18/10/22'''
 import math
 
