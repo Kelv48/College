@@ -1,5 +1,4 @@
 '''Payslip.py  
-Kelvin Osagie 122318693
 11-10-22'''
 
 #SudoCode
