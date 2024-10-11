@@ -1,5 +1,3 @@
-# Student Number 122318693
-
 class Player(object):
     def __init__(self, name, level, health, xp):
         if not isinstance(name, str):
