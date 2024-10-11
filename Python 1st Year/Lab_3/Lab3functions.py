@@ -1,5 +1,4 @@
-'''Kelvin Osagie 122318693
-18/10/22'''
+'''18/10/22'''
 from cmath import sqrt
 import math
 
