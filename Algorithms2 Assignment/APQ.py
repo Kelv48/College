@@ -1,6 +1,3 @@
-#122318693
-#Used chatgpt and copilot
-
 class Element_heap():
     """ A key, value and index. """
     def __init__(self, k, v, i):
