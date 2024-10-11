@@ -1,6 +1,3 @@
-##Kelvin Osagie 122318693
-
-
 #Q1 p1
 """programming_languages = ('php','java','python','c++','c')
 
