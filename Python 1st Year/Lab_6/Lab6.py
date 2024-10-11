@@ -1,5 +1,4 @@
 #Discount.py Lab6
-#Kelvin Osagie 122318693
 #08/11/22
 
 #Q1
