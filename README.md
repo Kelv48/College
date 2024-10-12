@@ -25,7 +25,7 @@ Each folder within the main language category contains projects grouped into the
 
 ### Featured Projects
 
-- **Algorithms Assignmenr**: Implemented heap and array based priority queues to test which can process graphs more efficiently.
+- **Algorithms Assignment**: Implemented heap and array based priority queues to test which can process graphs more efficiently.
 - **Flask App**: Created a flask app to learn flask and web devolopment.
 - **Python Text Based Game**: Created a text based adventure game in python using oop.
 - **Python Tkinter Paint Project**: Created a basic paint board using tkinter.
