@@ -1,5 +1,3 @@
-// 122318693
-
 import java.util.Scanner;
 
 public class coffee {
