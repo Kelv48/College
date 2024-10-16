@@ -1,5 +1,4 @@
 // A2
-// Kelvin Osagie 122318693
 
 public class exam_results {
    public static void main(String[] args) {
