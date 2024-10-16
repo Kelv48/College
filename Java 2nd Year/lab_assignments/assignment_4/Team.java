@@ -1,4 +1,4 @@
-//122318693 Program 2
+//Program 2
 import java.util.HashMap;
 import java.util.Scanner;
 
