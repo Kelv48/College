@@ -1,5 +1,4 @@
 // A2
-// Kelvin Osagie 122318693
 
 public class loan {
     public static void main(String[] args) {
