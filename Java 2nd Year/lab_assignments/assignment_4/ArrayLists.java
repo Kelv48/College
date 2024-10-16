@@ -1,4 +1,4 @@
-//122318693 Program 1
+//Program 1
 
 import java.util.Scanner;
 import java.util.ArrayList;
