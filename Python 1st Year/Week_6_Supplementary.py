@@ -1,6 +1,3 @@
-#Kelvin Osagie 122318693
-#Supplementary.py
-
 #Q1.
 '''Speed_of_Light = 186_000    #Miles per second
 Distance_between = 34_000_000  #Miles
